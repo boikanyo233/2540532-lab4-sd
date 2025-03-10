@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, #form-element {
+    position: relative;
+    left: -40%;
+    width: max-content;
+}
+
+#error-display {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#loading-status {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#info-container .neighbor-countries-section {
+    display: none;
+    margin-bottom: 30px;
+}
+.content-section {
+    display: table;
+    width: 100%;
+}
+
+.country-info {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.flag-section img {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: left;
+}
+
+.neighbor {
+    margin-bottom: 10px;
+}
+
+.neighbor img {
+    width: 800px;
+    vertical-align: middle;
+}
+
+.flag-container {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.neighbor-row {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.neighbor-name {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+.neighbor-flag {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+    text-align: left;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: high-quality;
+    object-fit: contain;
+}
+
+.neighbor-flag img {
+    width: 900px;
+    height: auto;
+    vertical-align: middle;
+}
